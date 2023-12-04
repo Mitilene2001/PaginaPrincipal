@@ -1,0 +1,5 @@
+.ServiciosFacial {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px; /* Ajustar la distancia entre el encabezado y el contenido */
+  }

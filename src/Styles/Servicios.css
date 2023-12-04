@@ -1,0 +1,59 @@
+.servicios-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  text-align: center;
+  align-items: center; /* Agrega esta línea para centrar verticalmente */
+}
+
+.servicio {
+  display: flex;
+  flex-direction: column; /* Cambia la dirección del flex a columna */
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.imagen-servicio {
+  max-width: 100%;
+  width: 200px;
+  height: 200px;
+}
+
+.styleTitle {
+  text-align: center;
+  color: #12b4ab;
+}
+
+.descripcion-servicio {
+  margin-top: 0px; /* Ajusta el margen superior según sea necesario */
+}
+
+.titulo-fila {
+  text-align: center;
+  width: 100%; /* Asegura que el título ocupe el ancho completo de la columna */
+}
+
+.servicio h3 {
+  text-align: center;
+}
+
+.container-ver-mas {
+  display: flex;
+  justify-content: flex-end;
+
+  margin-right: 47%;
+  margin-bottom: 10px;
+}
+
+.container-ver-mas a {
+  text-decoration: none;
+  background-color: #6392bf;
+  color: white;
+  padding: 14px 19px;
+  border-radius: 50px;
+}

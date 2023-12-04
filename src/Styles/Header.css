@@ -1,0 +1,5 @@
+@media (max-width: 768px) {
+    .navbar {
+      padding: 0px; /* Ajusta el espaciado en pantallas más pequeñas */
+    }
+}

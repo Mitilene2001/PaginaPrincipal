@@ -1,0 +1,7 @@
+/* Estilos para pantallas pequeñas (móviles) */
+@media (max-width: 768px) {
+    .agendar-cita-button {
+      font-size: 20px;
+    }
+  }
+  

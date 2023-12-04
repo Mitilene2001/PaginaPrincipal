@@ -1,0 +1,22 @@
+/* Footer.css */
+.footer-container {
+    background-color: #333; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 50px; /* Espaciado interior */
+    text-align: center; /* Alineación de texto al centro */
+    bottom: 0; /* Opcional: anclar al fondo de la página */
+    width: 100%; /* Opcional: ancho completo */
+  }
+  
+  .logo {
+    width: 50px; /* Ancho deseado para el logo */
+    height: auto; /* Altura automática para mantener la proporción */
+    margin-right: 10px; /* Espaciado a la derecha del logo */
+  }
+  
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  

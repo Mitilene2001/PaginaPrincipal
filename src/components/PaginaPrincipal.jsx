@@ -19,7 +19,6 @@ function PaginaPrincipal() {
       <Servicios />
       <Ubicacion />
       <Contacto />
-      <SobreNosotros />
       <Footer />
     </div>
   );

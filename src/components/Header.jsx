@@ -74,6 +74,11 @@ export default function Header() {
             <img src={Logo} alt="Logo" style={logoStyle} />
           </Link>
         </div>
+        <div style={{ textAlign: 'center', color: 'white', paddingTop: '10px' }}>
+        <h1 style={{ fontSize: '30px' }}>Contamos con gran variedad de aparatología.</h1>
+
+        </div>
+
         {isMenuOpen ? (
           <AiOutlineClose
             size={30}
@@ -117,10 +122,9 @@ export default function Header() {
                 <PhoneOutlined style={iconMarginStyle} /> Contacto
               </Link>
             </li>
-
-
           </ul>
         </div>
+
       </nav>
     </div>
   );

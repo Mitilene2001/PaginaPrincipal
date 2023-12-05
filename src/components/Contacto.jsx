@@ -11,17 +11,21 @@ function Contacto() {
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
-    height: '100%',
+    width: '110%',
+    height: '110vh', // Usa '100vh' para hacer que la sección ocupe el 100% de la altura de la pantalla
     textAlign: 'center',
     backgroundImage: `url(${Fondo3})`,
-    width: '100%',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover', // Ajusta para que la imagen cubra completamente el fondo
   };
+  
 
   const textContainerStyle = {
     backgroundColor: 'rgba(255, 255, 255, 0.7)',
-    padding: '5% 10%',
-    borderRadius: '100px',
-    margin: '60px',
+    padding: '1% 5%', // Ajusta el espaciado interno
+    borderRadius: '60px', // Ajusta el radio de borde
+    margin: '10px', // Ajusta el margen exterior
   };
 
   const linkStyle = {

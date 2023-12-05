@@ -110,12 +110,12 @@ const Ubicación = () => {
   height="300"
   frameBorder="0"
   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3756.641126398075!2d-101.18014682599438!3d19.685310332564306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842d0de5cb12b165%3A0x8739a8d512335c89!2sThomas%20Alva%20Edison%20335%2C%20Electricistas%2C%2058290%20Morelia%2C%20Mich.!5e0!3m2!1ses-419!2smx!4v1700110081836!5m2!1ses-419!2smx"
-  width="720"
+  width="650"
   height="300"
   style={{ border: "0" }}
   allowFullScreen
   title="Mapa de Clínica de belleza Lily"
-></iframe>;
+></iframe>
                   </div>
       </Col>
     </Row>
